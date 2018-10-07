@@ -1,0 +1,86 @@
+.bodycontent { font-weight: lighter;}
+.everyotheritem { color: rgb(97, 88, 75);}
+.title {font-weight: bolder;}
+.tabletitle {color: rgb(112, 101, 80);}
+
+
+
+body{
+
+
+  background-color: rgba(215, 185, 125, 0.63);
+  font-family: 'Oswald', sans-serif;
+
+  }
+a{
+  color: rgb(112, 101, 80);
+text-decoration: none;}
+
+
+header{
+  height: 200px;
+  width: auto;
+  background-color: rgba(73, 72, 67, 0.37);
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+table {border-width: thick;
+  border-style: ridge;
+border-color: black;
+column-rule-width: thick;
+ padding: 15px;
+ vertical-align: bottom;
+}
+
+
+#myname {font-size: 70px;
+        }
+#myface {float: right;
+        float: top;
+        height: 200px;
+        width: auto;
+        border-radius: 50%}
+
+table{ line-height: 150%;}
+
+ul{
+    list-style-type: disc;
+    list-style-position: inside;
+    line-height: 150%;
+    /*this "line-height" tag is my new css tag, which I used to increase the spacing in my webpage.*/
+        }
+h1{ font-family: 'Anton', sans-serif;
+}
+
+h2{ font-family: 'Anton', sans-serif;
+line-height: 150%;
+font-size: 28px;
+}
+
+address{ font-style: oblique;}
+
+h1:hover {font-size: 140px;
+font-weight: bolder;}
+
+a:hover {
+  color: rgb(81, 86, 88);
+  border-style: dotted;
+   border-width: 3px;
+   border-color: white;
+}
+
+#firstpar {font-size: 20px;
+line-height: 160%;}
+#secondpar {font-size: 20px;
+line-height: 160%;}
+
+#firstpar:hover {color: purple;}
+#secondpar:hover {color: blue;}
+
+#myface:hover {-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);}
+
+p.bodycontent {color:purple;}
