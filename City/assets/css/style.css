@@ -5,12 +5,13 @@
 
 .topsection {
 
-
 }
 
 
 .menusection {
-
+  grid-template-columns: repeat(auto-fit, minmax);
+  text-transform: none;
+  grid-area: nav;
 
 }
 
@@ -23,7 +24,7 @@
 
 
 .featuredsection {
-
+background-color:
 
 }
 
@@ -31,4 +32,60 @@
 .photogallery {
 
 
+}
+
+a {
+
+}
+
+a:hover {
+
+}
+
+
+
+.item {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(400px, 1fr) );
+grid-gap: 10px;
+}
+
+/* tablet sized devices */
+@media only screen and (min-width: 600px) {
+	body{
+	background-color: black;
+	}
+
+	.outsidecontainer {
+	display: grid;
+	grid-gap: 20px;
+
+	/* Define your template page areas */
+	grid-template-areas:
+	  "header header header"
+	  "nav    nav    nav"
+	  "article article aside"
+	  "footer footer footer";
+	}
+}
+
+
+
+/* MEDIA QUERIES desktop sized devices */
+@media only screen and (min-width: 768px) {
+	body{
+	background-color: #000000;
+	}
+	.header{
+		color: #000000;
+		background-color: rgba(#b09505, 0.96) ;
+	width: auto;
+	height: 300px;
+	background-image:
+	background-repeat: no-repeat;
+	background-position: center center;
+	/*background-attachment: fixed;*/
+	/*background-size: cover;*/
+	background-size: contain;
+	}
 }
