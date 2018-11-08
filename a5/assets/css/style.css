@@ -1,0 +1,49 @@
+
+#userText {
+
+  float:left;
+
+}
+
+
+
+
+h1  {
+color:black;
+font-size: 100px;
+font-family: 'Poor Story', cursive;
+
+}
+
+h2, p  {
+color:black;
+font-size: 25px;
+font-family: 'Poor Story', cursive;
+
+}
+
+body {
+
+  background-color: rgb(231, 165, 207);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+button {
+font-family: 'Poor Story', cursive;
+font-size:20px;
+border-radius: 20px;
+background-color: rgb(237, 186, 212);
+
+}
+
+div {
+  font-family: 'Poor Story', cursive;
+  font-size:20px;
+}
+
+p {
+
+  float:right;
+}
