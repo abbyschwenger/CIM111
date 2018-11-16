@@ -1,0 +1,158 @@
+.agree:hover{
+  background-color: #D1D1D1;
+}
+
+
+h1 {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: disc;
+    list-style-position: inside;
+    line-height: 150%;
+
+}
+
+.container2{
+
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+}
+.container2 img{
+  display: block;
+  width: 100%;
+
+}
+
+
+
+.navBar{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: rgb(233, 123, 134);
+}
+.item{
+  height: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin: 15px;
+}
+
+.item:hover{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container1{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+
+.photo1{
+  width: 600px;
+}
+
+
+header {
+  color: rgb(233, 123, 134);
+  font-family: 'Libre Baskerville', serif;
+  font-size: 60px;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+body {
+  margin: 20px;
+  font-family: 'Libre Baskerville', serif;
+  line-height: 20px;
+  font-size: 1em;
+  line-height: 150%;
+}
+
+a {
+  color: rgb(233, 123, 134);
+}
+
+
+#mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9000;
+  background-color:rgb(233, 123, 134);
+  display: none;
+}
+
+#box .window {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 440px;
+  height: 200px;
+  display: none;
+  z-index: 9999;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#box #dialog  {
+  width: 750px;
+  height: 300px;
+  padding: 10px;
+  background-color: rgb(222, 178, 169);
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+  line-height:50px;
+}
+
+#popupfoot {
+  font-size: 16pt;
+  position: absolute;
+  bottom: 0px;
+  width: 250px;
+  left: 250px;
+
+}
+
+#dialog2{
+width: 750px;
+height: 300px;
+padding: 10px;
+background-color: rgb(222, 178, 169);
+font-family: 'Libre Baskerville', serif;
+font-size: 30px;
+line-height:50px;
+}
+
+@media all and (max-width: 1000px) {
+  aside,
+  article {
+    grid-column: 4 / 4;
+  }
+}
+
+
+@media all and (max-width: 700px) {
+  aside,
+  article {
+    grid-column: 2 / 4;
+  }
+}
+
+@media all and (max-width: 300px) {
+  aside,
+  article {
+    grid-column: 1 / 4;
+  }
+}
